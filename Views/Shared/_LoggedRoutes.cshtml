@@ -1,0 +1,7 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <li>@Html.ActionLink("Country", "Index", "Country", new { area = "" }, new { @class = "nav-link" })</li>
+    <li>@Html.ActionLink("City", "Index", "City", new { area = "" }, new { @class = "nav-link" })</li>
+    <li>@Html.ActionLink("Multimedia Type", "Index", "MultimediaType", new { area = "" }, new { @class = "nav-link" })</li>
+    <li>@Html.ActionLink("Property", "Index", "Property", new { area = "" }, new { @class = "nav-link" })</li>
+}
